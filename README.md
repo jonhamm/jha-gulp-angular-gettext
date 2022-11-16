@@ -1,13 +1,22 @@
-# [gulp](http://gulpjs.com)-angular-gettext
+# [gulp](http://gulpjs.com)-mono-angular-gettext
+
+This is a fork of [gulp-angular-gettext](https://www.npmjs.com/package/gulp-angular-gettext) 2.3.0
+
+It merely changes how source references are reported as this fork will report workspace
+relative paths in references.
+
+This approach is better for use in monorepos with global repo translation jobs.
+
+The reason this change is in a fork is that it is a breaking change.
 
 > Extract and compile translatable strings using [angular-gettext](http://angular-gettext.rocketeer.be)
-
+This is a fork of 
 ## Install
 
-Install with [npm](https://npmjs.org/package/gulp-angular-gettext)
+Install with [npm](https://npmjs.org/package/gulp-mono-angular-gettext)
 
 ```sh
-npm install --save-dev gulp-angular-gettext
+npm install --save-dev gulp-mono-angular-gettext
 ```
 
 ## Example

@@ -1,14 +1,17 @@
 {
-  "name": "gulp-angular-gettext",
-  "version": "2.3.0",
-  "description": "Gulp plugin for extracting/compiling angular-gettext strings",
+  "name": "gulp-mono-angular-gettext",
+  "version": "3.0.0",
+  "description": "Gulp plugin for extracting/compiling angular-gettext strings in monorepo",
   "license": "MIT",
   "repository": "gabegorelick/gulp-angular-gettext",
   "author": {
     "name": "Gabe Gorelick"
   },
+  "maintainer": {
+    "name": "Jon Hammerskov"
+  },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "lint": "eslint *.js lib/**/*.js test/**/*.js",
