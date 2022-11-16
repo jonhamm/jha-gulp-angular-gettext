@@ -4,6 +4,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
-#: partial2.html:1
+#: fixtures/partial2.html:1
 msgid "world"
 msgstr ""

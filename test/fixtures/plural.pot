@@ -4,7 +4,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
-#: partial1.html:1
+#: fixtures/partial1.html:1
 msgid "Bird"
 msgid_plural "Birds"
 msgstr[0] ""
